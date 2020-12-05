@@ -4,7 +4,7 @@ function Post(props) {
     return (
       <div className="Post">
         <div className='info'>
-            <p>{props.post.name}</p>
+            <p>{props.post.product_name}</p>
             <p>{props.post.years_used}</p>
             <p>{props.post.subject}</p>
         </div>
